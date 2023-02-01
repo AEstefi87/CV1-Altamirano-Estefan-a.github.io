@@ -1,0 +1,88 @@
+@import url("https: //fonts.googleapis.com/css2? family= Oswald:wght@200;400 & display=swap");
+{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    font-family: Poppins , sans-serif;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: rgb(115, 238, 221);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: rgb(18, 119, 126);
+    padding: 40px;
+}
+.profileText h2
+{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+
+.container .right_Side
+{
+    position: relative;
+    background-color:ghostwhite;
+    padding: 40px
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about: :last-child
+{
+    margin-bottom: o;
+}
+.title2
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.container .Estudios h4
+{
+    margin-bottom: 15px;
+}
+.container .Idiomas .percent
+{
+ position: relative;
+ width: 100%;
+ height: 6px;
+ background: rgb(122, 117, 117);
+ display: block;
+ margin-top: 5px;
+}
+.container .Idiomas .percent div
+{
+    position: absolute;
+    top: o;
+    left: o;
+    height: 100%;
+    background: rgb(12, 69, 116);
+}
